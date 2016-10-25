@@ -1,0 +1,333 @@
+﻿/* Custom - , Retina */ 
+
+    @media(min-width : 230px) {
+        .container{
+            margin:0px;
+            padding:0px;
+        }
+   .product-image {
+                width: 50px;
+                height: 50px;
+                margin-top:15px;
+                margin-left:-15px;
+            }
+   .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }
+   .mobile-menu {
+    padding: 0px;
+    width:20%;
+   
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:smaller;
+    
+    }
+    .subheading {
+    font-size:x-small;
+    margin-bottom: 2px;
+    margin-top:46px;
+    }
+    .foodheading
+    {
+        font-size:x-small;
+        margin:0px;
+    }
+    .rateheading
+    {
+        font-size:x-small;
+        margin-top: 1px;
+    }
+    .orderheading{
+         margin-top:5px;
+         font-size:x-small;
+     }
+   .subbutton{
+    margin: 45px 0px 0px -5px;
+    font-size:xx-small;
+    padding:3px;
+    }
+    .middleheading
+    {
+        margin-top:44px;
+    }
+    .mobile-image{
+        width:auto;
+        height:85px;
+     
+     }
+    }
+    @media(min-width : 320px) {
+        .container{
+            margin:0px;
+            padding:0px;
+        }
+   .product-image {
+                width: 50px;
+                height: 50px;
+                margin-top:15px;
+                margin-left:-15px;
+            }
+   .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }
+   .mobile-menu {
+    padding: 0px;
+    width:20%;
+   
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:smaller;
+    
+    }
+    .subheading {
+    font-size:x-small;
+    margin-bottom: 2px;
+    margin-top:46px;
+    }
+    .foodheading
+    {
+        font-size:x-small;
+        margin-top:7px;
+    }
+    .rateheading
+    {
+        font-size:x-small;
+        margin-top:10px;
+    }
+    .orderheading{
+         margin-top: 14px;
+         font-size:x-small;
+     }
+   .subbutton{
+    margin: 33px 0px 0px 0px;
+    font-size:xx-small;
+    }
+    .middleheading
+    {
+        margin-top:44px;
+    }
+    .mobile-image{
+        width:auto;
+        height:85px;
+     
+     }
+
+    }
+
+    /* xs- Extra Small Devices, Phones */ 
+
+    @media(min-width : 480px) {
+     .product-image {
+                width: 70px;
+                height: 70px;
+                margin-top: 10px;
+      }
+     .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }
+    .mobile-menu {
+    padding: 0px;
+    width:20%;
+   
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:small;
+    
+    }
+    .subheading {
+    font-size:smaller;
+    margin-bottom: 2px;
+    margin-top:46px;
+    }
+    .foodheading
+    {
+        font-size:smaller;
+    }
+    .rateheading
+    {
+        font-size:smaller;
+    }
+    .orderheading{
+         margin-top:12px;
+         font-size:smaller;
+     }
+   .subbutton{
+    margin: 33px 0px 0px 0px;
+    font-size:smaller;
+    }
+    .middleheading
+    {
+        margin-top:46px;
+    }
+    .mobile-image{
+        width:auto;
+        height:85px;
+     
+     }
+       
+    }
+
+ /* sm - Small Devices, Tablets */
+
+@media(min-width:768px)
+{
+    .product-image {
+                width: 80px;
+                height: 80px;
+                          }
+            .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }
+     .mobile-menu {
+    padding: 0px;
+    width:20%;
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:large;
+    
+    }
+    .subheading {
+    font-size:small;
+    margin-bottom: 2px;
+    margin-top:46px;
+    }
+    .orderheading{
+         margin-top:13px;
+         font-size:small;
+     }
+    .rateheading
+    {
+        font-size:small;
+    }
+    .foodheading
+    {
+        font-size:small;
+    }
+   .subbutton{
+    margin: 35px 0px 0px 30px;
+    font-size:small;
+    }
+    .middleheading
+    {
+        margin-top:55px;
+    }
+    .mobile-image{
+        width:auto;
+        height:92px;
+     }
+  
+ }
+ /* md - Medium Devices, Desktops */
+
+@media(min-width:992px)
+{
+     .product-image {
+                width: 90px;
+                height: 90px;
+                
+            }
+            .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }  
+       .mobile-menu {
+    padding: 0px;
+    width:20%;
+    
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:large;
+    
+}
+    .subheading {
+    font-size:small;
+    margin-bottom: 2px;
+    }
+    .orderheading
+    {
+    font-size:small;
+    margin-bottom: 2px;
+    }
+   .subbutton{
+    margin: 35px 0px 0px 30px;
+    font-size:medium;
+    }
+    .middleheading
+    {
+        margin-top:55px;
+    }
+    .mobile-image{
+        width:auto;
+        height:92px;
+     }
+
+
+}
+
+  /* lg- Large Devices, Wide Screens */
+
+@media(min-width:1200px)
+{   .product-image {
+                width: 100px;
+                height: 100px;
+               
+            }
+            .product-header {
+                width: 100px;
+                height: 100px;
+                font-size:smaller;
+            }   
+    .heading {
+            margin-top:-1px;
+            margin-bottom: 2px;
+            font-size: 18px;
+       }
+     .foodheading{
+          margin-top:9px;
+          font-size: 15px;
+          padding-bottom:3px;
+     }
+     .rateheading{
+         font-size: 15px;
+     }
+     .subheading {
+            font-size: 15px;
+            margin-top:12px;
+        }
+     .orderheading{
+         font-size: 15px;
+          margin-top:12px;
+     }
+     .middleheading
+     {
+         margin-top:58px;
+     }
+     .subbutton
+     {
+         margin:43px 0px 0px 30px;
+         font-size: large;
+         
+     }
+
+
+}
