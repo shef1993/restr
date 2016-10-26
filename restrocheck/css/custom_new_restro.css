@@ -66,9 +66,10 @@
     @media(min-width : 320px) {
         
    .product-image {
-                width: 36px;
-                height: 30px;
-                margin-top: 7px;
+                width: 28px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
             }
    .product-header {
                 width: 42px;
@@ -109,16 +110,16 @@
         margin-top:6px;
     }
     .orderheading{
-         margin-top: 8px;
+         margin-top: 3px;
          font-size:x-small;
      }
    .subbutton{
-    margin: 28px 0px 0px 0px;
+    margin: 24px 0px 0px 0px;
     font-size:xx-small;
     }
     .middleheading
     {
-        margin-top:36px;
+        margin-top:31px;
     }
     .mobile-image{
         width:auto;
@@ -329,9 +330,9 @@
 {
      
     .product-image{  
-    width: 70px;
-    height: 70px;
-    margin-left: 24px;
+    width: 50px;
+    height: 50px;
+    margin-left: 22px;
 }
    .product-header {
                 width: 100px;
@@ -433,7 +434,7 @@
         font-size:larger;
     }
    .subbutton{
-    margin: 35px 0px 0px 30px;
+    margin: 35px 0px 0px 55px;
     font-size:larger;
     }
     .middleheading
