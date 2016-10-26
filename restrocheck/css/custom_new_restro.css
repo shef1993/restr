@@ -350,6 +350,12 @@
     width:20%;
    
     }
+    .openheading{
+     margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:small;
+    margin-right:3px;
+    }
     .heading {
     margin-top: 1px;
     margin-bottom: 2px;
@@ -394,7 +400,8 @@
        
 }
  /* md - Medium Devices, Desktops */
-@media(min-width:992px){.product-image {
+@media(min-width:992px){
+    .product-image {
         width: 92px;
     height: 73px;
     border-width: 1px;
@@ -405,6 +412,14 @@
     width:20%;
    
     }
+   .openheading
+   {
+       margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:small;
+    margin-right:12px;
+
+   }
     .heading {
     margin-top: 1px;
     margin-bottom: 2px;
@@ -461,6 +476,14 @@
     width:20%;
    
     }
+   .openheading
+   {
+       margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:small;
+    margin-right:12px;
+
+   }
     .heading {
     margin-top: 1px;
     margin-bottom: 2px;
