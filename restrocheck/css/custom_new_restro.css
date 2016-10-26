@@ -1,20 +1,17 @@
 ﻿/* Custom - , Retina */ 
 
-    @media(min-width : 230px)
-    {
-        .product-image {
-                width: 15px;
-    height: 15px;
-    margin-top: 10px;
+  @media(min-width : 230px) {
+   .imgclass{
+            margin:0;
+            padding:0;
+        }
+   .product-image {
+    width: 30px;
+    height: 42px;
     margin-left: 7px;
+    border-width: 1px;
             }
-   .product-header {
-       width: 32px;
-       height: 40px;
-       border: 1.5px solid #808080;
-                border-radius: 5px;
-                margin-left: -9px;
-            }
+   
    .mobile-menu {
     padding: 0px;
     width:20%;
@@ -38,48 +35,46 @@
     }
     .orderrateheading{
         font-size:7px;
-        margin-top:-4px;
+        margin-top:-7px;
     }
     .rateheading
     {
         font-size:7px;
-        margin-top:6px;
+        margin-top:2px;
     }
     .orderheading{
-         margin-top: -4px;
+         margin-top: -7px;
          font-size:7px;
      }
    .subbutton{
-    margin: 18px 0px 0px -1px;
-    font-size:9px;
-    padding:0px;
+    margin: 15px 0px 0px 0px;
+    font-size:7px;
+    padding:1px;
     }
     .middleheading
     {
-        margin-top:25px;
+        margin-top:23px;
     }
     .mobile-image{
         width:auto;
         height:85px;
      
      }
+
     }
     @media(min-width : 320px) {
-        
+        .imgclass{
+            margin:0;
+            padding:0;
+        }
    .product-image {
-                width: 28px;
-    height: 25px;
-    margin-top: 10px;
-    margin-left: 5px;
+    width: 42px;
+    height: 50px;
+    margin-top: 2px;
+    margin-left: 7px;
+    border-width: 1px
             }
-   .product-header {
-                width: 42px;
-                height: 50px;
-                font-size: smaller;
-                border: 1px solid #808080;
-                border-radius: 5px;
-                margin-left: -9px;
-            }
+   
    .mobile-menu {
     padding: 0px;
     width:20%;
@@ -103,20 +98,21 @@
     }
     .orderrateheading{
         font-size:x-small;
-        margin-top:-3px;
+        margin-top:-7px;
     }
     .rateheading
     {
         font-size:x-small;
-        margin-top:6px;
+        margin-top:2px;
     }
     .orderheading{
-         margin-top: 3px;
+         margin-top: -7px;
          font-size:x-small;
      }
    .subbutton{
-    margin: 24px 0px 0px 0px;
+    margin: 23px 0px 0px 0px;
     font-size:xx-small;
+    padding:1px;
     }
     .middleheading
     {
@@ -129,24 +125,16 @@
      }
 
     }
-
     @media(min-width : 420px)
      {
         
    .product-image {
-                width: 36px;
-                height: 30px;
-                margin-top: 13px;
-                margin-left: 9px;
-            }
-   .product-header {
                 width: 58px;
                 height: 61px;
-                font-size: smaller;
-                border: 1.5px solid #808080;
-                border-radius: 5px;
+                border-width:1px;
                 margin-left: -9px;
             }
+   
    .mobile-menu {
     padding: 0px;
     width:20%;
@@ -195,29 +183,15 @@
      
      }
  }
-
     /* xs- Extra Small Devices, Phones */ 
-
     @media(min-width : 480px) {
      .product-image {
-                width: 36px;
-                height: 30px;
-                margin-top: 13px;
-                margin-left: 9px;
+    width: 58px;
+    height: 61px;
+    border-width: 1px;
+    margin-left: 10px;
             }
-   .product-header {
-                width: 58px;
-                height: 61px;
-                font-size: smaller;
-                border: 1.5px solid #808080;
-                border-radius: 5px;
-                margin-left: -9px;
-            }
-   .orderrateheading{
-        font-size:x-small;
-        margin-top:-3px;
-    }
-    .mobile-menu {
+   .mobile-menu {
     padding: 0px;
     width:20%;
    
@@ -246,16 +220,17 @@
          font-size:small;
      }
     .orderheading{
-         margin-top:12px;
+         margin-top:-5px;
          font-size:small;
      }
    .subbutton{
-    margin: 33px 0px 0px 0px;
+    margin: 26px 0px 0px 0px;
     font-size:small;
+    padding:2px;
     }
     .middleheading
     {
-        margin-top:46px;
+        margin-top:39px;
     }
     .mobile-image{
         width:auto;
@@ -264,146 +239,182 @@
      }
        
     }
-
- /* sm - Small Devices, Tablets */
-
-@media(min-width:768px)
-{
-    .product-image {
-                width: 63px;
-    height: 58px;
-    margin: 17px 0px 0px 15px;
-}
-      .product-header {
-                width: 100px;
-                height: 90px;
-                border:1.5px solid #808080;
-                border-radius:5px;
+     @media(min-width : 600px) {
+     .product-image {
+        width: 77px;
+    height: 73px;
+    border-width: 1px;
+    margin-left: 10px;
             }
-     .mobile-menu {
+   .mobile-menu {
     padding: 0px;
     width:20%;
+   
     }
     .heading {
     margin-top: 1px;
     margin-bottom: 2px;
-    font-size:large;
+    font-size:small;
     
     }
     .subheading {
-    font-size:larger;
+    font-size:small;
     margin-bottom: 2px;
     margin-top:46px;
     }
-    .orderheading{
-         margin-top:13px;
-         font-size:larger;
-     }
-    .orderrateheading{
-         margin-top:-4px;
-         font-size:larger;
-     }
-    .rateheading
-    {
-        font-size:larger;
-    }
     .foodheading
     {
-        font-size:larger;
+        font-size:small;
     }
+    .rateheading
+    {
+        font-size:small;
+    }
+    .orderrateheading{
+         margin-top:-2px;
+         font-size:small;
+     }
+    .orderheading{
+         margin-top:-5px;
+         font-size:small;
+     }
    .subbutton{
-    margin: 35px 0px 0px 30px;
-    font-size:larger;
+    margin: 26px 0px 0px 8px;
+    font-size:small;
+    padding:3px;
     }
     .middleheading
     {
-        margin-top:55px;
+        margin-top:39px;
     }
     .mobile-image{
         width:auto;
-        height:92px;
-     }
-  
- }
- /* md - Medium Devices, Desktops */
-
-@media(min-width:992px)
-{
+        height:85px;
      
-    .product-image{  
-    width: 50px;
-    height: 50px;
-    margin-left: 22px;
-}
-   .product-header {
-                width: 100px;
-                height: 90px;
-                border:1.5px solid #808080;
-                border-radius:5px;
+     }
+       
+    }
+ /* sm - Small Devices, Tablets */
+@media(min-width:768px) {
+     .product-image {
+        width: 77px;
+    height: 73px;
+    border-width: 1px;
+    margin-left: 28px;
             }
-     .mobile-menu {
+   .mobile-menu {
     padding: 0px;
     width:20%;
+   
     }
     .heading {
     margin-top: 1px;
     margin-bottom: 2px;
-    font-size:large;
+    font-size:small;
     
     }
     .subheading {
-    font-size:larger;
+    font-size:small;
     margin-bottom: 2px;
     margin-top:46px;
     }
-    .orderheading{
-         margin-top:13px;
-         font-size:larger;
-     }
-    .orderrateheading{
-         margin-top:-4px;
-         font-size:larger;
-     }
-    .rateheading
-    {
-        font-size:larger;
-    }
     .foodheading
     {
-        font-size:larger;
+        font-size:small;
     }
+    .rateheading
+    {
+        font-size:small;
+    }
+    .orderrateheading{
+         margin-top:-2px;
+         font-size:small;
+     }
+    .orderheading{
+         margin-top:-5px;
+         font-size:small;
+     }
    .subbutton{
-    margin: 35px 0px 0px 30px;
-    font-size:larger;
+    margin: 26px 0px 0px 27px;
+    font-size:small;
+    padding:3px;
     }
     .middleheading
     {
-        margin-top:55px;
+        margin-top:39px;
     }
     .mobile-image{
         width:auto;
-        height:92px;
+        height:85px;
+     
      }
-  
- }
+       
+    }
+ /* md - Medium Devices, Desktops */
+@media(min-width:992px) {
+     .product-image {
+        width: 77px;
+    height: 73px;
+    border-width: 1px;
+    margin-left: 28px;
+            }
+   .mobile-menu {
+    padding: 0px;
+    width:20%;
+   
+    }
+    .heading {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    font-size:small;
+    
+    }
+    .subheading {
+    font-size:small;
+    margin-bottom: 2px;
+    margin-top:46px;
+    }
+    .foodheading
+    {
+        font-size:small;
+    }
+    .rateheading
+    {
+        font-size:small;
+    }
+    .orderrateheading{
+         margin-top:-2px;
+         font-size:small;
+     }
+    .orderheading{
+         margin-top:-5px;
+         font-size:small;
+     }
+   .subbutton{
+    margin: 26px 0px 0px 27px;
+    font-size:small;
+    padding:3px;
+    }
+    .middleheading
+    {
+        margin-top:39px;
+    }
+    .mobile-image{
+        width:auto;
+        height:85px;
+     
+     }
+       
+    }
   /* lg- Large Devices, Wide Screens */
-
 @media(min-width:1200px)
 {   .product-image{  
-    width: 70px;
-    height: 70px;
-    margin-left: 24px;
-        margin-top: 11px;
-
+    width: 121px;
+    height: 97px;
+    margin: 0px 0px 0px 27px;
+    border-width:1px;
 }
-   .product-header {
-                    width: 121px;
-                height: 97px;
-            border: 1.5px solid #808080;
-            border-radius: 5px;
-            margin: 0px 0px 0px 4px;
-            }
-     .mobile-menu {
+   .mobile-menu {
     padding: 0px;
     width:20%;
     }
@@ -437,6 +448,7 @@
    .subbutton{
     margin: 35px 0px 0px 55px;
     font-size:larger;
+    padding:6px 12px;
     }
     .middleheading
     {
